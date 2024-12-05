@@ -6,23 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DominusoftKids- Akademia e aventurave të dijeve.</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Style -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <!-- nis navbar+banner -->
     <header id="home_index" class="postition-relative">
-        <div class="video_layer">
-            <img src="images/banner.webp" alt="" class="w-100" style="height: 90dvh;">
+        <div class="image_layer">
+            <img src="assets/images/banner.webp" alt="" class="w-100">
         </div>
         <!-- Navbar -->
         <div class="container-fluid position-fixed top-0 w-100 px-0 navContainer">
-            <div class=" container-fluid infoNav contactNav">
-                <div class="row pt-2 px-3">
+            <!-- <div class=" container-fluid infoNav contactNav">
+                <div class="row pt-2 px-3 container">
                     <div class="col-6 d-flex align-items-center pt-2">
                         <p class="pe-4">info@info@dominusoft.al</p>
                         <p> +355 67 300 5050</p>
@@ -50,12 +54,14 @@
                         </p>
                     </div>
                 </div>
-            </div>
-            <nav class="navbar navbar-expand-lg navbar-light py-0">
+            </div> -->
+
+            <nav class="navbar navbar-expand-lg navbar-light py-4">
 
                 <div class="container">
 
-                    <a class="navbar-brand py-0" href="index.html"><img src="images/logo.png" alt="DominusoftKids"></a>
+                    <a class="navbar-brand py-0" href="index.html"><img src="assets/images/logo.png"
+                            alt="DominusoftKids"></a>
                     <button class="navbar-toggler ms-auto mt-3" type="button" data-bs-toggle="offcanvas"
                         data-bs-target="#navbardominusoft">
                         <span class="line"></span>
@@ -93,14 +99,13 @@
         </div>
         <!-- fund banner-hero -->
     </header>
+    <!-- <div class="test"></div> -->
     <!-- fund navbar+banner -->
     <main>
-
-
         <!-- nis rreth nesh -->
         <section class="container my-5">
             <div class="row">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
                     <div>
                         <h1>Rreth nesh</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque blanditiis voluptatem ea
@@ -111,26 +116,24 @@
                             aliquid eveniet unde animi a laboriosam?</p>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
-                    <img src="images/i1.png" alt="" class="img-fluid">
+                <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                    <img src="assets/images/i1.png" alt="" class="img-fluid">
                 </div>
             </div>
         </section>
         <!-- fund rreth nesh -->
         <!-- nis programet -->
-        <section class="container-fluid programet">
+        <section class="container-fluid programet my-5">
             <div class="container">
-                <h1>Programet</h1>
+                <h1 class="display-2 text-center my-3">Programet</h1>
                 <div class="row">
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img src="images/i1.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">6-10</h5>
-                                <a href="#" class="btn btn-primary" data-bs-toggle="modal"
-                                    data-bs-target="#staticBackdrop">Mëso më shumë</a>
+                        <div class="card border-0">
+                            <img src="assets/images/326252-P9NGJU-588.jpg" class="card-img-top mx-auto" alt="...">
+                            <div class="card-body text-center">
+                                <h1 class="card-title btn btn-primary text-white">Mosha 6-10</h1>
+                                <h2>Emri i paketes</h2>
                             </div>
-
                         </div>
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
@@ -155,15 +158,12 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img src="images/i1.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">11-14</h5>
-                                <a href="#" class="btn btn-primary" data-bs-toggle="modal"
-                                    data-bs-target="#staticBackdrop">Mëso më
-                                    shumë</a>
+                        <div class="card border-0">
+                            <img src="assets/images/10389852.jpg" class="card-img-top mx-auto" alt="...">
+                            <div class="card-body text-center">
+                                <h1 class="card-title btn btn-primary text-white">Mosha 6-10</h1>
+                                <h2>Emri i paketes</h2>
                             </div>
-
                         </div>
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
@@ -188,15 +188,34 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img src="images/i1.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">15+</h5>
-                                <a href="https://dominusoft.al/" class="btn btn-primary">Mëso më
-                                    shumë</a>
+                        <div class="card border-0">
+                            <img src="assets/images/10459467.jpg" class="card-img-top mx-auto" alt="...">
+                            <div class="card-body text-center">
+                                <h1 class="card-title btn btn-primary text-white">Mosha 6-10</h1>
+                                <h2>Emri i paketes</h2>
                             </div>
                         </div>
-
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Understood</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -208,7 +227,22 @@
     <!-- nis footer -->
     <div class="wave"></div>
     <footer>
+        <div class="container d-flex justify-content-center align-items-center mb-3 pb-5">
+            <div>
+                <a href="">Kryefaqja</a>
+                <a href="">Programet</a>
+                <a href="">Kontaktet</a>
+            </div>
+        </div>
+        <div class="container d-flex justify-content-center align-items-center pb-5">
+            <div>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            </div>
+        </div>
+        <div>
 
+        </div>
     </footer>
     <!-- fund footer -->
     <!-- Bootstrap -->
@@ -235,14 +269,14 @@
         let contactNav = document.querySelector(".contactNav")
         window.onscroll = () => {
             let scroll = window.pageYOffset > 200;
-            navbar.style.backgroundColor = scroll ? "#e6e7ee" : "transparent";
+            navbar.style.backgroundColor = scroll ? "#005176" : "transparent";
             navbar.style.transition = "opacity 0.3s ease -in -out";
             contactNav.style.display = scroll ? "block" : "none"
             navBurgerLines.forEach(lines => {
-                lines.style.backgroundColor = scroll ? "#44476A" : "#e6e7ee";
+                lines.style.backgroundColor = scroll ? "#005176" : "#e6e7ee";
             });
             links.forEach(link => {
-                link.style.color = scroll ? "#44476A" : "#e6e7ee";
+                link.style.color = scroll ? "#e6e7ee" : "#e6e7ee";
             });
         };
     </script>
