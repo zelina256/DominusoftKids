@@ -1,3 +1,9 @@
+let navbar = document.querySelector("nav");
+let links = document.querySelectorAll(".nav-link");
+let navBurgerLines = document.querySelectorAll("span.line");
+let contactNav = document.querySelector(".contactNav");
+
+
 window.onscroll = () => {
   let scroll = window.pageYOffset > 200;
   navbar.style.backgroundColor = scroll ? "#005176" : "transparent";
@@ -11,16 +17,3 @@ window.onscroll = () => {
   });
 };
 
-var typed = new Typed("#element", {
-  strings: ["Code, Create, Learn, Share"],
-  typeSpeed: 60,
-  backSpeed: 40,
-  startDelay: 10,
-  backDelay: 1000,
-  loop: true,
-  showCursor: false,
-});
-let navbar = document.querySelector("nav");
-let links = document.querySelectorAll(".nav-link");
-let navBurgerLines = document.querySelectorAll("span.line");
-let contactNav = document.querySelector(".contactNav");
