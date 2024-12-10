@@ -10,7 +10,12 @@
   --color-charcoal-blue: #31344b;
   --color-yelow: #f9f871;
   --color-blue: #005176;
-  --backgound-color: #fefcf6
+  --backgound-color: #fefcf6;
+  --rich-black: #00202Fff;
+  --rich-black-2: #03212Fff;
+  --gunmetal: #0C2936ff;
+  --antiflash-white: #F3F5F5ff;
+  --platinum: #DCE0E1ff;
 }
 
 /* Stilizimi baze */
@@ -37,6 +42,10 @@ body {
 h1,
 h2 {
   color: var(--color-blue);
+}
+
+.text-white {
+  color: var(--color-diamond);
 }
 
 /* Navbar */
@@ -88,6 +97,11 @@ h2 {
   transform: translate(-50%, -50%);
 }
 
+.art {
+  height: 100dvh;
+  background-color: var(--color-blue);
+}
+
 .image_layer>img {
   height: 100dvh;
 }
@@ -101,11 +115,12 @@ h2 {
   background-color: rgba(0, 0, 0, 0.603);
 }
 
+
 #home_index nav,
 #home_index nav a,
 #home_index .moto_pos {
   z-index: 999999;
-  color: #FFFFFF;
+  color: var(--backgound-color);
 }
 
 #digitalArt .image_layer {
@@ -851,4 +866,76 @@ body {
   .five {
     transform: translateX(0px);
   }
+}
+
+
+.custom-shape-divider-bottom-1733836099 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1733836099 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 133px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1733836099 .shape-fill {
+  fill: var(--backgound-color);
+  ;
+}
+
+.infoArt {
+  height: 100dvh;
+}
+
+.line {
+  height: 10px;
+  width: 100px;
+  background-color: var(--rich-black);
+
+}
+
+
+.infoArt ul {
+  list-style: none;
+  /* Remove default bullets */
+  padding: 0;
+  /* Optional: Removes default padding */
+}
+
+.infoArt ul li {
+  position: relative;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+
+.infoArt ul li::before {
+  content: "\f1fc";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #333;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.nav-pills .nav-link {
+  color: var(--rich-black);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  color: var(--color-blue);
+  background-color: transparent;
+  border: 1px solid var(--color-blue);
 }
