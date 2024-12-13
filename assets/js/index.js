@@ -20,3 +20,7 @@ window.onscroll = () => {
     link.style.color = scroll ? "#005176" : "#005176";
   });
 };
+
+document.querySelector("#programet").scrollIntoView({
+  behavior: "smooth",
+});
