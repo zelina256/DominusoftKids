@@ -21,6 +21,6 @@ window.onscroll = () => {
   });
 };
 
-document.querySelector("#programet").scrollIntoView({
-  behavior: "smooth",
-});
+// document.querySelector("#programet").scrollIntoView({
+//   behavior: "smooth",
+// });
