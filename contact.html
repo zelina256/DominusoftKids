@@ -4,7 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DominusoftKids- Akademia e aventurave të dijeve.</title>
+    <title>DominusoftKids - Edukim, Art Dixhital dhe Teknologji për Fëmijët Tuaj</title>
+    <meta name="description"
+        content="DominusoftKids - Akademia e aventurave të dijeve, që ofron programe kreative për fëmijët. Na kontaktoni tani!">
+    <meta name="keywords"
+        content="DominusoftKids, edukim për fëmijë, kreativitet, teknologji, programe për fëmijë, kontakt DominusoftKids, akademia e dijeve, art dixhital, Tiranë, shkolla për fëmijë, arsimim për të rinjtë, zhvillimi kreativ">
+    <meta name="author" content="DominusoftKids">
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
     <!-- Font awesome -->
@@ -25,36 +30,6 @@
         </div>
         <!-- Navbar -->
         <div class="container-fluid position-fixed top-0 w-100 px-0 navContainer">
-            <!-- <div class=" container-fluid infoNav contactNav">
-                    <div class="row pt-2 px-3 container">
-                        <div class="col-6 d-flex align-items-center pt-2">
-                            <p class="pe-4">info@info@dominusoft.al</p>
-                            <p> +355 67 300 5050</p>
-                        </div>
-                        <div class="col-6 text-end pe-2 d-flex pt-2 justify-content-end align-items-center">
-                            <p class="pe-3">
-                                <a href="https://www.instagram.com/dominusoft_education/" target="_blank">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                            </p>
-                            <p class="pe-3">
-                                <a href="https://m.facebook.com/DominusoftEducation/" target="_blank">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                            </p>
-                            <p class="pe-3">
-                                <a href="https://www.youtube.com/@dominusoft8279" target="_blank">
-                                    <i class="fab fa-youtube"></i>
-                                </a>
-                            </p>
-                            <p class="pe-3">
-                                <a href="https://www.tiktok.com/@dominusoft_education" target="_blank">
-                                    <i class="fab fa-tiktok"></i>
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                </div> -->
             <nav class="navbar navbar-expand-lg navbar-light pt-mb-3">
                 <div class="container">
                     <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png"
@@ -81,26 +56,14 @@
         </div>
         <!-- fund navbar -->
         <!-- Banner - Hero -->
-        <div class="position-absolute moto1">
-            <div class="moto text-center ">
-                <h1 class="mb-4 display-5 fw-bold" id="element"></h1>
-            </div>
-        </div>
         <div class="position-absolute moto2">
             <div class="moto text-center text-white">
                 <h1 class="mb-4 fw-bolder text-white display-1">NA KONTAKTONI</h1>
-                <!-- <p>Programi i DIGITAL ART është dizajnuar për t’u ofruar fëmijëve një hapësirë
-                    argëtuese dhe krijuese
-                    ku mund të eksplorojnë artin dhe teknologjinë. Qëllimi është të zhvillohet kreativiteti dhe
-                    imagjinata, ndërsa fëmijët
-                    mësojnë konceptet bazë të artit dixhital përmes lojërave dhe projekteve të përshtatura
-                    për moshën e tyre.</p> -->
+                <p data-tilt data-tilt-scale="1.1"><a href="#contact" class="text-white"><i
+                            class="fa-solid fa-angle-down"></i></a></p>
             </div>
         </div>
         <!-- fund banner-hero -->
-        <!-- <div class="waveNav">
-    
-            </div> -->
         <div class="custom-shape-divider-bottom-1733836099">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
                 preserveAspectRatio="none">
@@ -111,11 +74,10 @@
         </div>
     </header>
 
-    <main class="container  mt-5">
-        <section class="about section-padding">
+    <main class="container mt-5" id="contact">
+        <section class="about section-padding pt-3">
             <div class="container">
                 <div class="row">
-
                     <div class="col-12 col-md-6">
                         <div class="w-100 map_kont mb-4 pb-2">
                             <iframe class="rounded text-center w-100"
@@ -123,11 +85,11 @@
                                 loading="lazy"></iframe>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
-                        <h1>Na kontaktoni:</h1>
-                        <p><i class="fa-solid fa-phone"></i> <a href="tel:+355 6XXXXXXXXX">+355 6XXXXXXXXX</a></p>
-                        <p><i class="fa-solid fa-envelope"></i> <a href="email:">domkids@info.al</a></p>
-                        <p><i class="fa-solid fa-location-dot"></i> <a
+                    <div class="col-12 col-md-6 d-flex flex-column justify-content-center ps-0 ps-md-5">
+                        <h2 class="display-3 mb-3">Na kontaktoni:</h2>
+                        <p><i class=" fa-solid fa-phone pe-3"></i> <a href="tel:+355 6XXXXXXXXX">+355 6XXXXXXXXX</a></p>
+                        <p><i class="fa-solid fa-envelope pe-3"></i> <a href="emailto:">domkids@info.al</a></p>
+                        <p><i class="fa-solid fa-location-dot pe-3"></i> <a
                                 href="https://maps.app.goo.gl/DKRHny1d8qM3QTVg8">Rr: “Reshit Çollaku”, Tiranë</a></p>
                     </div>
 
@@ -174,7 +136,17 @@
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <!-- JavaScript -->
     <script src="assets/js/index.js"></script>
+    <!-- Tilt -->
+    <script src="assets/js/vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".your-element"), {
+            max: 25,
+            speed: 400
+        });
 
+        //It also supports NodeList
+        VanillaTilt.init(document.querySelectorAll(".your-element"));
+    </script>
 </body>
 
 </html>
