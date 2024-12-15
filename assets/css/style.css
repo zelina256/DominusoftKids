@@ -160,6 +160,13 @@ section {
   border: none;
 }
 
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 #00000000;
+  border: none;
+}
+
 .navbar-toggler .line {
   width: 100%;
   float: left;
@@ -223,17 +230,16 @@ footer a {
 }
 
 .card-img-top {
-  width: 300px;
-  height: 300px;
+  /* width: 300px;
+  height: 300px; */
+  width: 90%;
+  height: 350px;
   /* border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; */
   /* filter: drop-shadow(rgba(0, 0, 0, 0.1) 0px 4px 12px); */
   filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.1));
   /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
 }
 
-/* #programet {
-  height: 100vh;
-} */
 
 #programet .card-title {
   font-size: 2em;
@@ -259,7 +265,6 @@ footer a {
   width: 100px;
   text-align: center;
   height: 100px;
-  /* border-radius: 18px; */
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   position: relative;
   box-shadow: 0 40px 80px #e0e7fb;
@@ -298,10 +303,8 @@ footer a {
   position: relative;
   bottom: 0;
   left: 0;
-  /* display: block; */
   width: calc(100% + 1.3px);
   height: 150px;
-  /* transform: rotateY(180deg); */
   transform: translateY(-1px) rotateY(180deg);
 }
 
@@ -330,132 +333,6 @@ footer a {
 
 .custom-shape-divider-top-1733606179 .shape-fill {
   fill: var(--backgound-color);
-}
-
-/* Responsive */
-@media screen and (max-width:1024px) {}
-
-/* @media screen and (max-width:800px) {} */
-
-@media screen and (max-width:768px) {}
-
-@media screen and (max-width:480px) {
-
-  .moto1,
-  .moto2 {
-    display: none;
-  }
-
-  .navbar-brand img {
-    padding-top: 10px;
-    width: 120px;
-    height: 40px;
-  }
-
-  .wave {
-    height: 301px;
-  }
-}
-
-@media screen and (max-width:320px) {}
-
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-
-.graphic-container {
-  width: 100%;
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-  margin: 100px 0;
-}
-
-.center-circles-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  grid-gap: 20px;
-  height: 100%;
-  width: 100%;
-}
-
-.single {
-  gap: 20px;
-}
-
-.double {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-}
-
-.double:nth-child(even) {
-  flex-direction: column-reverse;
-}
-
-
-
-.icon i {
-  font-size: 3rem;
-}
-
-.content-container {
-  position: absolute;
-  max-width: 200px;
-  min-width: 200px;
-  width: 100%;
-}
-
-.content p {
-  font-size: 12px;
-}
-
-.content-container h2 {
-  position: relative;
-  padding: 0 10px;
-}
-
-/* media */
-@media (max-width: 992px) {
-  .graphic-container {
-    margin: 50px 0;
-  }
-
-  .center-circles-container {
-    overflow: hidden;
-    overflow-x: scroll;
-    width: 1300px;
-  }
-
-  .double {
-    flex-direction: row;
-  }
-
-  .double:nth-child(even) {
-    flex-direction: row;
-  }
-
-  .two {
-    transform: translateX(0px);
-  }
-
-  .three {
-    transform: translateX(0px);
-  }
-
-  .four {
-    transform: translateX(0px);
-  }
-
-  .five {
-    transform: translateX(0px);
-  }
 }
 
 
@@ -504,8 +381,7 @@ footer a {
 
 .tab-content img {
   width: 100%;
-  height: 500px;
-  object-fit: fill;
+  height: 350px;
 }
 
 .tab-content li {
@@ -550,7 +426,7 @@ section img {
   transform: translateY(-2px);
 }
 
-li[role="presentation"] {
+.age {
   font: 2em bold;
 }
 
@@ -575,3 +451,194 @@ iframe {
   color: var(--color-blue);
   font: 1em
 }
+
+/* Responsive */
+@media screen and (max-width:1024px) {
+  .moto .display-1 {
+    font-size: 2.4em
+  }
+
+  #programet .card-title {
+    font-size: 1.7em;
+    padding: 10px 2em;
+  }
+
+  #digitalArt .moto .display-1 {
+    font-size: 4em;
+  }
+
+  .arsye .ps-3 {
+    padding-left: 2rem !important;
+  }
+}
+
+@media screen and (max-width:992px) {
+  .offcanvas-backdrop.show {
+    opacity: 1;
+    background: var(--color-blue);
+  }
+
+  .nav-link {
+    z-index: 9999;
+  }
+
+  /* .navbar-light .navbar-nav .nav-link:hover,
+  i.fas.fa-search:hover,
+  i.fas.fa-flag-usa:hover,
+  #apliko:focus,
+  #aplilo:active,
+  #apliko:visited,
+  #trajnime:focus,
+  #trajnime:active,
+  #trajnime:visited {
+    color: #acacac;
+  } */
+
+  .navbar-toggler {
+    color: #acacac;
+    border: none;
+    z-index: 999999999;
+    outline: none !important;
+  }
+
+  .navbar-collapse {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    transition: 0.3s;
+    z-index: 9999999;
+  }
+}
+
+@media screen and (max-width:768px) {
+  #programet .card-title {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width:520px) {
+  .image_layer img {
+    object-fit: fill;
+  }
+
+  .moto1 {
+    display: none;
+  }
+
+  .navbar-brand img {
+    padding-top: 10px;
+    width: 120px;
+    /* height: 40px; */
+  }
+
+  .moto2 {
+    width: 100%;
+    font-size: 3em;
+  }
+
+  .custom-shape-divider-bottom-1733836099,
+  .custom-shape-divider-top-1733606179,
+  .custom-shape-divider-bottom-1733605803 {
+    display: none;
+  }
+
+  .age {
+    font: 1.4em bold;
+  }
+
+  .tab-content li {
+    color: var(--color-blue);
+    padding-bottom: 2px;
+    font-size: 1.1em;
+  }
+
+  #programet .card-title {
+    font-size: 1.4em;
+  }
+
+  .fa-angle-down {
+    font-size: 1.5em;
+    border-radius: 50%;
+    border: 1px solid var(--color-diamond);
+    padding: 17px 18px;
+  }
+
+  .moto p {
+    font-size: 0.3em;
+  }
+
+  footer a {
+    padding: 10px;
+    text-align: center;
+  }
+
+  footer .top-50 {
+    top: 38% !important;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .image_layer img {
+    object-fit: fill;
+  }
+
+  .moto1 {
+    display: none;
+  }
+
+  .navbar-brand img {
+    padding-top: 10px;
+    width: 120px;
+    /* height: 40px; */
+  }
+
+  .display-1 {
+    font-size: 2em;
+    margin-top: 1em;
+  }
+
+  .moto2 {
+    width: 100%;
+    font-size: 2em;
+  }
+
+  .custom-shape-divider-bottom-1733836099,
+  .custom-shape-divider-top-1733606179,
+  .custom-shape-divider-bottom-1733605803 {
+    display: none;
+  }
+
+  .age {
+    font: 1.4em bold;
+  }
+
+  .tab-content li {
+    color: var(--color-blue);
+    padding-bottom: 2px;
+    font-size: 1.1em;
+  }
+
+  #programet .card-title {
+    font-size: 1.4em;
+  }
+
+  .fa-angle-down {
+    font-size: 1.5em;
+    border-radius: 50%;
+    border: 1px solid var(--color-diamond);
+    padding: 17px 18px;
+  }
+
+  footer a {
+    padding: 10px;
+    text-align: center;
+  }
+
+  footer .top-50 {
+    top: 38% !important;
+  }
+}
+
+@media screen and (max-width:320px) {}

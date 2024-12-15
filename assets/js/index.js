@@ -2,6 +2,7 @@ let navbar = document.querySelector("nav");
 let links = document.querySelectorAll(".nav-link");
 let navBurgerLines = document.querySelectorAll("span.line");
 let contactNav = document.querySelector(".contactNav");
+let lines = document.querySelector(".contactNav");
 let tabLink = document.querySelectorAll(" .nav-pills .nav-link");
 console.log(tabLink);
 window.onscroll = () => {
@@ -11,7 +12,7 @@ window.onscroll = () => {
 
   // contactNav.style.display = scroll ? "block" : "none"
   navBurgerLines.forEach((lines) => {
-    lines.style.backgroundColor = scroll ? "#005176" : "#e6e7ee";
+    lines.style.backgroundColor = scroll ? "#e6e7ee" : "#e6e7ee";
   });
   links.forEach((link) => {
     link.style.color = scroll ? "#e6e7ee" : "#e6e7ee";
