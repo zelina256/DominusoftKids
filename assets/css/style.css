@@ -495,6 +495,7 @@ iframe {
 
   .moto h2 {
     font-size: 2.4em;
+    padding: 0 20px;
   }
 
   #programet .card-title {
@@ -573,6 +574,11 @@ iframe {
   footer .top-50 {
     top: 38% !important;
   }
+
+  #programet,
+  container {
+    padding-top: 20px;
+  }
 }
 
 @media screen and (max-width:480px) {
@@ -604,7 +610,7 @@ iframe {
   }
 
   #programet .card-title {
-    font-size: 1.4em;
+    font-size: 1.3em;
   }
 
   .fa-angle-down {
