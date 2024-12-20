@@ -3,7 +3,6 @@
   font-family: 'AvenirNext';
   src: url('../font/avenir-next/avenirnextltpro-light.woff') format("woff");
 }
-
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 /* #f9f871 , #3cc5ef */
@@ -14,7 +13,6 @@
   --backgound-color: #fefcf6;
 
 }
-
 /* Stilizimi baze */
 *,
 *::after,
@@ -29,7 +27,7 @@ html {
 }
 
 body {
-  font-family: 'AvenirNext', sans-serif;
+  font-family: 'AvenirNext', "Segoe UI", sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   background-color: var(--backgound-color);
@@ -42,7 +40,7 @@ h4,
 h5,
 h6 {
   color: var(--color-blue);
-  font-family: "Quicksand", sans-serif;
+  font-family: "Quicksand", "Segoe UI", sans-serif;
   font-weight: 900;
 }
 
@@ -87,7 +85,6 @@ section {
 }
 
 .navbar-toggler {
-  /* margin-top: 10px; */
   width: 50px;
   height: 30px;
   border: none;
@@ -144,12 +141,7 @@ nav {
   transform: translate(-50%, -50%);
 }
 
-.art {
-  height: 100dvh;
-  background-color: var(--color-blue);
-}
-
-.contactArt {
+.art,.contactArt {
   height: 100dvh;
   background-color: var(--color-blue);
 }
@@ -227,18 +219,15 @@ footer a {
 /* Programet */
 .card-img-top {
   width: 90%;
-  /* width: 60%; */
   height: 350px;
-  /* border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; */
   filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.3));
-  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
 }
 
 section img {
   filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.3));
 }
 
-W #programet .card-title {
+#programet .card-title {
   font-size: 2em;
   padding: 10px 2em;
 }
@@ -300,8 +289,6 @@ W #programet .card-title {
   text-align: center;
   margin: 0 auto;
 }
-
-
 
 .pushable i {
   font-size: 0.8em
@@ -417,7 +404,6 @@ W #programet .card-title {
   ;
 }
 
-
 /* Kontakt */
 iframe {
   height: 400px;
@@ -446,12 +432,10 @@ iframe {
   .moto .display-1 {
     font-size: 2.4em
   }
-
   #programet .card-title {
     font-size: 1.7em;
     padding: 10px 2em;
   }
-
   .arsye .ps-3 {
     padding-left: 2rem !important;
   }
@@ -462,18 +446,15 @@ iframe {
     opacity: 1;
     background: var(--color-blue);
   }
-
   .nav-link {
     z-index: 9999;
   }
-
   .navbar-toggler {
     color: #acacac;
     border: none;
     z-index: 999999999;
     outline: none !important;
   }
-
   .navbar-collapse {
     position: fixed;
     left: 50%;
@@ -488,55 +469,51 @@ iframe {
   .image_layer img {
     object-fit: cover;
   }
-
-  .moto1 {
+  .moto1, .rrethnesh {
     display: none;
   }
-
   .moto h2 {
     font-size: 2.4em;
-    padding: 0 20px;
   }
-
   #programet .card-title {
     font-size: 1.2em;
   }
-
   .card-img-top {
     height: 250px;
   }
-
   .age {
     font-size: 1em;
   }
+  .tab-content img {
+    width: 80%;
+    height: 100%;
+}
 }
 
 @media screen and (max-width:520px) {
   .display-6 {
     font-size: calc(1.3rem + 1.5vw);
   }
-
   .navbar-brand img {
     padding-top: 10px;
     width: 120px;
   }
-
   .moto {
     width: 100%;
   }
-
   .moto h2 {
-    font-size: 1.4 em;
+    font-size: 2.4em;
+    padding: 0 20px;
   }
 
-  .rrethnesh {
-    display: none;
+  .moto p {
+    padding: 0 10px;
   }
 
   .custom-shape-divider-bottom-1733836099,
   .custom-shape-divider-top-1733606179,
   .custom-shape-divider-bottom-1733605803,
-  .moto1 {
+  .moto1, .rrethnesh {
     display: none;
   }
 
@@ -556,15 +533,6 @@ iframe {
     border: 1px solid var(--color-diamond);
     padding: 17px 18px;
   }
-
-  .moto {
-    width: 100%;
-  }
-
-  /* .moto p {
-    font-size: 0.5em;
-  } */
-
 
   footer a {
     padding: 10px;
@@ -655,5 +623,4 @@ iframe {
   /* .moto p {
     font-size: 1em;
   } */
-
 }
