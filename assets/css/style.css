@@ -3,6 +3,7 @@
   font-family: 'AvenirNext';
   src: url('../font/avenir-next/avenirnextltpro-light.woff') format("woff");
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 /* #f9f871 , #3cc5ef */
@@ -13,6 +14,7 @@
   --backgound-color: #fefcf6;
 
 }
+
 /* Stilizimi baze */
 *,
 *::after,
@@ -141,7 +143,8 @@ nav {
   transform: translate(-50%, -50%);
 }
 
-.art,.contactArt {
+.art,
+.contactArt {
   height: 100dvh;
   background-color: var(--color-blue);
 }
@@ -218,18 +221,18 @@ footer a {
 
 /* Programet */
 .card-img-top {
-  width: 90%;
-  height: 350px;
-  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.3));
+  /* width: 90%; */
+  height: 100%;
+  filter: drop-shadow(0px 4px 12px #00517650);
 }
 
 section img {
-  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.3));
+  filter: drop-shadow(0px 4px 12px #00517650);
 }
 
 #programet .card-title {
-  font-size: 2em;
-  padding: 10px 2em;
+  font-size: 1.5em;
+  padding: 10px 0em;
 }
 
 .card {
@@ -271,6 +274,7 @@ section img {
   color: var(--color-blue);
   padding-bottom: 2px;
   font-size: 1.3em;
+  text-align: start;
 }
 
 .age {
@@ -298,7 +302,7 @@ section img {
   display: block;
   padding: 12px 42px;
   border-radius: 12px;
-  font-size: 1.25rem;
+  font-size: 0.5rem;
   background: hsl(345deg 100% 47%);
   background-color: #4981a9;
   color: white;
@@ -320,7 +324,7 @@ section img {
   height: 100px;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   position: relative;
-  box-shadow: 0 40px 80px #e0e7fb;
+  box-shadow: 0 0px 20px #e0e7fb;
 }
 
 .item::before {
@@ -432,10 +436,12 @@ iframe {
   .moto .display-1 {
     font-size: 2.4em
   }
+
   #programet .card-title {
-    font-size: 1.7em;
-    padding: 10px 2em;
+    font-size: 1.5em;
+    padding: 10px 10px;
   }
+
   .arsye .ps-3 {
     padding-left: 2rem !important;
   }
@@ -446,15 +452,18 @@ iframe {
     opacity: 1;
     background: var(--color-blue);
   }
+
   .nav-link {
     z-index: 9999;
   }
+
   .navbar-toggler {
     color: #acacac;
     border: none;
     z-index: 999999999;
     outline: none !important;
   }
+
   .navbar-collapse {
     position: fixed;
     left: 50%;
@@ -469,38 +478,48 @@ iframe {
   .image_layer img {
     object-fit: cover;
   }
-  .moto1, .rrethnesh {
+
+  .moto1,
+  .rrethnesh {
     display: none;
   }
+
   .moto h2 {
     font-size: 2.4em;
   }
+
   #programet .card-title {
     font-size: 1.2em;
   }
+
   .card-img-top {
-    height: 250px;
+    height: 320px;
   }
+
   .age {
     font-size: 1em;
   }
+
   .tab-content img {
     width: 80%;
     height: 100%;
-}
+  }
 }
 
 @media screen and (max-width:520px) {
   .display-6 {
     font-size: calc(1.3rem + 1.5vw);
   }
+
   .navbar-brand img {
     padding-top: 10px;
     width: 120px;
   }
+
   .moto {
     width: 100%;
   }
+
   .moto h2 {
     font-size: 2.4em;
     padding: 0 20px;
@@ -513,7 +532,8 @@ iframe {
   .custom-shape-divider-bottom-1733836099,
   .custom-shape-divider-top-1733606179,
   .custom-shape-divider-bottom-1733605803,
-  .moto1, .rrethnesh {
+  .moto1,
+  .rrethnesh {
     display: none;
   }
 
