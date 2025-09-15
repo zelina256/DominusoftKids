@@ -117,6 +117,8 @@ nav {
 
 .nav-link {
   transition: color 0.3s ease;
+  letter-spacing: 2px;
+
 }
 
 .navbar-toggler .line {
@@ -273,7 +275,7 @@ section img {
 .tab-content li {
   color: var(--color-blue);
   padding-bottom: 2px;
-  font-size: 1.3em;
+  font-size: 1em;
   text-align: start;
 }
 
@@ -311,6 +313,11 @@ section img {
 
 .pushable:active .front {
   transform: translateY(-2px);
+}
+
+.your-elemen {
+  object-fit: cover;
+  height: 50%;
 }
 
 /* arsye */
@@ -430,6 +437,19 @@ iframe {
   color: var(--color-blue);
   font: 1em
 }
+
+.contact-image img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  filter: none;
+}
+
+/* .text_d {
+  line-height: 1em;
+  color: var(--color-blue);
+  text-shadow: 0px 0px 0 rgb(227, 227, 227), 1px 1px 0 rgb(209, 209, 209), 2px 2px 0 rgb(191, 191, 191), 3px 3px 0 rgb(173, 173, 173), 4px 4px 0 rgb(155, 155, 155), 5px 5px 4px rgba(0, 0, 0, 0.45), 5px 5px 1px rgba(0, 0, 0, 0.5), 0px 0px 4px rgba(0, 0, 0, .2);
+} */
 
 /* Responsive */
 @media screen and (max-width:1024px) {
